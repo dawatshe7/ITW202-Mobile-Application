@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         fragmentTransaction.replace(R.id.frame_layout, fragment, "Home");
         fragmentTransaction.commit();
 
+        //getSupportFragmentManager().beginTransaction().add(R.id.mail_container, new HomeFragment())
+
     }
 
 
