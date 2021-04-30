@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:id="@+id/btn"
+      android:backgroundTint="@color/purple_500"
+      android:width="400dp"
+      android:text="@string/name"
+      android:onClick="showToast"/>
+
+  <TextView
+      android:id="@+id/count"
+      android:layout_width="match_parent"
+      android:layout_height="503dp"
+      android:layout_below="@+id/btn"
+      android:background=" #FFFF00"
+      android:gravity="center"
+      android:textAlignment="center"
+      android:text="@string/name2"
+      android:textColor="@color/purple_700"
+      android:textSize="160sp"
+      android:textStyle="bold"
+       />
+
+  <Button
+      android:id="@+id/btn2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/btn"
+     android:layout_marginTop="500dp"
+      android:layout_centerInParent="true"
+      android:width="400dp"
+      android:backgroundTint="@color/purple_500"
+      android:onClick="countUp"
+      android:text="@string/name1" />
+
+
+</RelativeLayout>
